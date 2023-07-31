@@ -213,42 +213,61 @@ header {
 }
 
 /* Examples */
-.example-area{
-    justify-content: space-between;
-    margin-block: 30px;
+.example-area {
+  justify-content: space-between;
+  margin-block: 30px;
 }
-.example-heading{
+.example-heading {
   text-align: center;
 }
-.example-heading h2{
+.example-heading h2 {
   margin-bottom: 20px;
 }
-.example-card{
-    width: 23%;
-    position: relative;
-    min-height: 300px;
-    background-color: black;
-    transition: 0.2s ease-out;
-    background-size: cover;
-    background-image: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(assets/asset\ 36.jpeg);
+.example-card {
+  width: 23%;
+  position: relative;
+  min-height: 300px;
+  background-color: black;
+  transition: 0.2s ease-out;
+  background-size: cover;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url(assets/asset\ 36.jpeg);
 }
-.example-card:hover{
- box-shadow: 0 0 10px #888;
+.example-card:hover {
+  box-shadow: 0 0 10px #888;
 }
-.example-card:nth-child(2){
-    background-image: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(assets/asset\ 37.jpeg);
+.example-card:nth-child(2) {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url(assets/asset\ 37.jpeg);
 }
-.example-card:nth-child(3){
-    background-image: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(assets/asset\ 38.jpeg);
+.example-card:nth-child(3) {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url(assets/asset\ 38.jpeg);
 }
-.example-card:nth-child(4){
-    background-image: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(assets/asset\ 39.jpeg);
+.example-card:nth-child(4) {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url(assets/asset\ 39.jpeg);
 }
-.example-card-text{
-    font-size: 20px;
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
-    color: white;
+.example-card-text {
+  font-size: 20px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  color: white;
+}
+
+/* Cta section */
+.cta-section-container {
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+}
+.cta-section{
+  background-color: #183b56;
+  padding: 120px var(--padding-inline-section) 80px;
+}
+.cta-section-container p{
+  color: white;
+  margin-top: 20px;
 }
