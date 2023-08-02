@@ -124,6 +124,10 @@ ul {
 .nav-toggle {
   display: none;
 }
+.nav-toggle i{
+  font-size: 20px;
+  font-weight: 700;
+}
 header {
   padding: 50px var(--padding-inline-section) 0;
 }
